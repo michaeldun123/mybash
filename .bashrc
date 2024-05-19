@@ -52,8 +52,8 @@ if [[ $iatest -gt 0 ]]; then bind "set completion-ignore-case on"; fi
 if [[ $iatest -gt 0 ]]; then bind "set show-all-if-ambiguous On"; fi
 
 # Set the default editor
-export EDITOR=nvim
-export VISUAL=nvim
+export EDITOR=nano
+export VISUAL=nano
 alias pico='edit'
 alias spico='sedit'
 alias nano='edit'
@@ -133,9 +133,9 @@ alias cls='clear'
 alias apt-get='sudo apt-get'
 alias multitail='multitail --no-repeat -c'
 alias freshclam='sudo freshclam'
-alias vi='nvim'
+alias vi='nano'
 alias svi='sudo vi'
-alias vis='nvim "+set si"'
+alias vis='nano'
 
 # Change directory aliases
 alias home='cd ~'
